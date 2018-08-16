@@ -17,6 +17,8 @@ import { DoughnutchartComponent } from '../components/doughnutchart/doughnutchar
 // Routes
 import { PAGES_ROUTES } from './pages.routes';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -26,7 +28,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         Graphic1Component,
         MinusplusinputComponent,
         DoughnutchartComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromisesComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,
